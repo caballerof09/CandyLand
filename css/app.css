@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(243, 213, 223) ;
+    font-family: "Nunito",sans-serif;
+}
+
+  /* navbar & navbar brand font adjustment */
+  #mainNavbar {
+    font-weight: 100;
+    font-size: 1.3rem;  
+  }
+
+  #mainNavbar .navbar-brand {
+    color: rgb(243, 36, 36);
+  } 
+
+ #mainNavbar .nav-link {
+    color:white ;
+  }
+
+  #mainNavbar .nav-link:hover {
+    color:rgb(243, 36, 36) ;
+  }
+
+  /* navbar hamburger button border */
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0) !important;
+  }
+
+  /*navbar hamburger button bars color adjustment  */
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(216, 22, 22, 0.76)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+  /* navbar hamburger button focus */
+  .navbar-toggler:focus {
+    outline: none;
+    outline-color:  rgba(255, 255, 255, 0) !important;
+  }
+  /* navbar background with jason */
+  #mainNavbar.scrolled {
+    background-color: rgba(222, 192, 222, 0.918);
+    transition: 500ms;
+  }
+
+  #heading-group span {
+    color:rgb(243, 36, 36) ;
+  }
+
+  #heading-group h1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+  }
+
+  @media (max-with:1200px) {
+    #heading-group h1 {
+      font-weight: 100;
+      font-size: 2.40rem;
+      text-align: center;
+    }
+  }
+
+  #heading-group h2 {
+    font-weight: 100;
+    font-size: 1.8rem;
+    color: rgb(243, 36, 36);
+    text-align: center;
+  }
+
+  #heading-group p {
+    font-weight: 100;
+    font-size: 1.2rem;
+    color: rgb(212, 132, 170);
+    text-align: center;
+  }
+
+#gallery .img-fluid {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    margin-bottom: 4rem;
+}
+
+#candy-loly {
+  width: 58px;
+  height: 58px;
+ 
+}
+
